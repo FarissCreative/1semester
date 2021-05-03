@@ -1,0 +1,53 @@
+
+.body {
+  background-color: rgb(255, 255, 255);
+  background-image: url("morecolor.jpeg");
+  color: rgb(0, 0, 0);
+  font-family: "Arial";
+  font-size: 16;
+  margin: 0px;
+  padding: 0px;
+  }
+
+.header{
+  width: 1200px;
+  height: 1200px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #1D1A19;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1; /* puts the nav bar in the z position */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color when mouse is over*/
+.navbar a:hover {
+  background: #0BF04F;
+  color:white;
+}
+
+footer{
+  background: #1D1A19;
+  color: white;
+  height: 80px;
+  text-align: center;
+  padding: 20px
+}
